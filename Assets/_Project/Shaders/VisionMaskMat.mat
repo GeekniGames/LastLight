@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VisionMaskMat
+  m_Shader: {fileID: 4800000, guid: 2c98423c357619a49a493fdbe25d37c7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AspectRatio: 0.5625
+    - _ConeCosInner: 0.90630776
+    - _ConeCosOuter: 0.81915206
+    - _FalloffPower: 10
+    - _FalloffStart: 0.25
+    - _ItemGlowPulse: 1.1033486
+    - _ItemLightCount: 2
+    - _ItemLightIntensity: 2
+    - _ItemLightRadius: 0.05625
+    - _LosEnabled: 1
+    - _LosRange: 0.61086524
+    - _LosSoftEdge: 0.015625
+    - _Peak: 2
+    - _PersonalIntensity: 0.5
+    - _PersonalPower: 1.5
+    - _PersonalRadius: 0.0625
+    - _Radius: 0.125
+    - _RadiusSoftEdge: 0.08
+    - _SoftEdge: 0.08
+    - _TorchFlickerPulse: 0.9326695
+    - _TorchLightCount: 4
+    - _TorchLightIntensity: 1
+    - _TorchLightRadius: 0.125
+    m_Colors:
+    - _AmbientColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Center: {r: 0.50000006, g: 0.48437494, b: 0, a: 0}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Direction: {r: 0.99986786, g: -0.016258238, b: 0, a: 0}
+    - _ItemLightColor: {r: 0.35, g: 1, b: 0.85, a: 1}
+    - _LightColor: {r: 1, g: 0.88, b: 0.68, a: 1}
+    - _TorchLightColor: {r: 1, g: 0.55, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
